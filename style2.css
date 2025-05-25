@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    height: 100%;
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    color: pink;
+    position: relative;
+}
+
+.background h4{
+    text-align: center;
+    color: #0c0c0c;
+    padding-top: 20px;
+    font-family: "Poppins";
+}
+
+.konten {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.konten h3{
+    margin: 0;
+    padding: 20px;
+    color: #0c0c0c;
+    position: absolute;
+    top: 120px;
+    left: 68px;
+    font-family: "Cormorant Garamond";
+    font-size: xxx-large;
+    padding-top: 80px;
+}
+
+.konten p{
+    font-size: 15px;
+    margin: 0;
+    padding: 20px;
+    color: palevioletred;
+    position: absolute;
+    top: 180px;
+    left: 70px;
+    text-align: justify;
+    padding-top: 80px;
+}
+
+.konten img{
+    margin-right: 90px; 
+    margin-bottom: 10px; 
+    max-width: 230px;
+    height: auto;
+    padding-top: 150px;
+}
+
+audio {
+    position: absolute;
+    left: 51%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 300px;
+    height: 800px;
+}
+
+/* section dua */
+
+.dua {
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/05.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.wrapper-dua {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.img-box-dua {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 70px;
+}
+
+.text-box-dua {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.text-box-dua p {
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+}
+
+.img-box-dua img {
+    max-width: 490px; 
+    height: auto; 
+}
+
+/* batas sec dua */
+
+/* section tiga */
+
+.tiga{
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/09.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; 
+    /* gap: 90px; */
+}
+
+.text-box {
+    flex: 1; 
+    padding-left: 80px;
+    text-align: justify;
+    color: black;
+}
+
+.video-box {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding-right: 70px;
+}
+
+video {
+    max-width: 470px; 
+    height: auto;
+}
+
+/* batas sec tiga */
+
+/* section empat */
+
+.empat{
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0),rgba(1.0,0,1.0,1.0)), url('assets/08.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.wrapper-empat {
+    display: flex; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.text-box-empat {
+    flex: 1; 
+    text-align: center;
+}
+
+.text-box-empat h3{
+    flex: 1; 
+    font-size: xx-large;
+    font-family: "Cormorant Garamond";
+}
+
+video {
+    max-width: 470px; 
+    height: auto; 
+}
+
+/* batas sec empat */
+
+/* section lima */
+.lima {
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/12.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.wrapper-lima {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.img-box-lima {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 70px;
+}
+
+.text-box-lima {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.text-box-lima p {
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+}
+
+.img-box-lima img {
+    max-width: 490px; 
+    height: auto; 
+}
+/* batas sec lima */
